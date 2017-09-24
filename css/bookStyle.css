@@ -1,0 +1,22 @@
+.bimage{
+	padding: 25px;
+}
+.bimage img{
+	height: 305px !important;
+	width: 602px;
+}
+.bform p{
+	padding-top: 18px;
+}
+.tab{
+ 	
+}
+.cbtn{
+	font-size: 10px;
+	color: #de8461;
+	font-weight: bold;
+	margin-left: -16px;
+}
+.btn-sm{
+    padding: 5px 15px;
+}
