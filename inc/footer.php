@@ -1,4 +1,4 @@
-<footer>
+		<footer>
 			<div id="footer">
 				<div class="container">
 					<div class="row row-bottom-padded-md">
@@ -73,8 +73,6 @@
 			</div>
 		</footer>
 
-	
-
 	</div>
 	<!-- END fh5co-page -->
 
@@ -82,8 +80,6 @@
 	<!-- END fh5co-wrapper -->
 
 	<!-- jQuery -->
-
-
 	<script src="js/jquery.min.js"></script>
 	<!-- jQuery Easing -->
 	<script src="js/jquery.easing.1.3.js"></script>
@@ -106,7 +102,9 @@
 	<!-- CS Select -->
 	<script src="js/classie.js"></script>
 	<script src="js/selectFx.js"></script>
-	
+	<!-- Google Map -->
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCefOgb1ZWqYtj7raVSmN4PL2WkTrc-KyA&sensor=false"></script>
+	<script src="js/google_map.js"></script>
 	<!-- Main JS -->
 	<script src="js/main.js"></script>
 	<!-- Customize JS-->

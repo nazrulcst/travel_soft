@@ -1,15 +1,16 @@
-.bimage{
+.bimage{ 
 	padding: 25px;
 }
-.bimage img{
+.bimage img{ 
 	height: 305px !important;
 	width: 602px;
 }
-.bform p{
-	padding-top: 18px;
+.caption p{ 
+	color: #f25208;
 }
-.tab{
- 	
+.bform p{ 
+	padding-top: 18px;
+	color:#f25208;
 }
 .cbtn{
 	font-size: 10px;
@@ -17,6 +18,33 @@
 	font-weight: bold;
 	margin-left: -16px;
 }
-.btn-sm{
-    padding: 5px 15px;
+.btn-sm{ 
+	padding: 5px 15px;
+}
+#box{ 
+	margin-top: -30px;
+}
+#in_box1{ 
+	padding-top: 3%; 
+	margin-left: 5%;
+}
+#in_box1 ul li{
+	background: #f9f9f9;
+	display: inline;
+	padding: 5px 15px 5px 15px;
+	text-align: center;
+	cursor: pointer;
+	color: #f96b11;
+	border-radius: 60px 100px 10px 30px;
+}
+#in_box1 ul li:hover{
+	cursor: pointer;
+}
+#in_box2,#in_box3,#in_box4,#in_box5{
+	padding: 0px 65px 10px 120px;
+	text-align: justify;
+	position: relative;
+	top: -10px;
+	border-radius: 0px 10px 10px 0px;
+	color: #000;
 }

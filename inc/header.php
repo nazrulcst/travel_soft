@@ -24,7 +24,7 @@
 	<meta name="twitter:card" content="" />
 
 	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-	<link rel="shortcut icon" href="favicon.ico">
+	<link rel="shortcut icon" href="images/icon9.png">
 
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css'>
 	
@@ -85,8 +85,8 @@
 							</li>
 							<li><a href="contact.php">Contact</a></li>
 							<li><a href="blog.php">Blog</a></li>
-							<li><a href=""><i class="glyphicon glyphicon-phone-alt"></i>   +88 01738 396 290</a></li>
 							<li><a href=""><i class="icon-facebook2"></i></a></li>
+							<li><a href=""><i class="glyphicon glyphicon-phone-alt"></i>  +88 01738 396 290</a></li>
 						</ul>
 					</nav>
 				</div>
