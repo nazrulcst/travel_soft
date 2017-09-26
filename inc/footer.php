@@ -109,5 +109,7 @@
 	<script src="js/main.js"></script>
 	<!-- Customize JS-->
 	<script src="js/customize.js"></script>
+	<!--own js-->
+	<script src="js/own.js"></script>
 	</body>
 </html>

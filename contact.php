@@ -23,7 +23,7 @@
 							<div class="row">
 								<div class="col-md-6">
 									<div class="form-group">
-										<input type="text" class="form-control" placeholder="Name">
+										<input type="text" class="form-control" placeholder="Name" autofocus>
 									</div>
 								</div>
 								<div class="col-md-6">

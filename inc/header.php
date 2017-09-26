@@ -63,9 +63,9 @@
 					<!-- START #fh5co-menu-wrap -->
 					<nav id="fh5co-menu-wrap" role="navigation">
 						<ul class="sf-menu" id="fh5co-primary-menu">
-							<li class="active"><a href="index.php">Home</a></li>
-							<li><a href="customizeTrip.php">Customize Tour</a></li>
-							<li>
+							<li class="active" id="slide_section"><a href="index.php">Home</a></li>
+							<li class="slide_section"><a href="customizeTrip.php">Customize Tour</a></li>
+							<li class="slide_section">
 								<a href="vacation.php" class="fh5co-sub-ddown">Tour Packages</a>
 								<ul class="fh5co-sub-menu">
 									<li><a href="domestic.php">Domestic Package</a></li>
@@ -73,7 +73,7 @@
 									<li><a href="outbound.php">Outbound Package</a></li>
 								</ul>
 							</li>
-							<li>
+							<li id="slide_section">
 								<a href="vacation.php" class="fh5co-sub-ddown">Our Services</a>
 								<ul class="fh5co-sub-menu">
 									<li><a href="visa.php">Visa Processing</a></li>
@@ -83,8 +83,8 @@
 									<li><a href="hotel.php">Sightseeing</a></li>
 								</ul>
 							</li>
-							<li><a href="contact.php">Contact</a></li>
-							<li><a href="blog.php">Blog</a></li>
+							<li id="slide_section"><a href="contact.php">Contact</a></li>
+							<li id="slide_section"><a href="blog.php">Blog</a></li>
 							<li><a href=""><i class="icon-facebook2"></i></a></li>
 							<li><a href=""><i class="glyphicon glyphicon-phone-alt"></i>  +88 01738 396 290</a></li>
 						</ul>
@@ -96,7 +96,7 @@
 	
 		<div class="fh5co-hero">
 			<div class="fh5co-overlay"></div>
-			<div class="fh5co-cover" data-stellar-background-ratio="0.5" style="background-image: url(img/two.jpg);">
+			<div class="fh5co-cover" data-stellar-background-ratio="0.5" style="background-image: url(bg_img/two.jpg);">
 				<div class="desc">
 					<div class="container">
 						<div class="row">
@@ -274,7 +274,7 @@
 
 								</div>
 							</div>
-							<div class="desc2 animate-box">
+							<div class="desc2 animate-box offer_1" id="offer_slider">
 								<div class="col-sm-7 col-sm-push-1 col-md-7 col-md-push-1">
 									<h2>Exclusive Limited Time Offer.</h2>
 									<h3>3 Days - 2 nights bangkok package.</h3>
