@@ -45,6 +45,8 @@
 	<link rel="stylesheet" href="css/cs-skin-border.css">
 	
 	<link rel="stylesheet" href="css/style.css">
+	<!--Customize css create for some custome design on the page-->
+	<link rel="styelsheet" href="css/customize.css">
 	<!-- Modernizr JS -->
 	<script src="js/modernizr-2.6.2.min.js"></script>
 	<!-- FOR IE9 below -->
@@ -93,10 +95,9 @@
 			</div>
 		</header>
 <!-- end:header-top -->
-	
 		<div class="fh5co-hero">
 			<div class="fh5co-overlay"></div>
-			<div class="fh5co-cover" data-stellar-background-ratio="0.5" style="background-image: url(bg_img/two.jpg);">
+			<div class="fh5co-cover" data-stellar-background-ratio="0.5" style="background-image: url(bg_img/one.jpg);">
 				<div class="desc">
 					<div class="container">
 						<div class="row">
@@ -286,5 +287,4 @@
 					</div>
 				</div>
 			</div>
-
 		</div>

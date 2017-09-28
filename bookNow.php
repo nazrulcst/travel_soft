@@ -53,6 +53,7 @@
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
 	<script>
+		// It's create for bookNow page Tab system menu
 		function _(x){
 			return document.getElementById(x);
 		}

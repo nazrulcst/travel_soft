@@ -1,0 +1,7 @@
+#bg-one{
+	position: absolute;
+}
+#bg-two{
+	position: relative;
+	top: 1800px;
+}
