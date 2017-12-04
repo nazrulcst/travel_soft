@@ -175,47 +175,47 @@
 						<hr>
 						<div class="col-sm-6">
 							<div class="form-group">
-								<input type="text" name="uname" placeholder="Your name" class="form-control" autofocus>
+								<input type="text" name="spName" placeholder="Full Name" class="form-control" autofocus>
 							</div>
 						</div>
 						<div class="col-sm-6">
 							<div class="form-group">
-								<input type="text" name="tdate" placeholder="Phone" class="form-control">
+								<input type="text" name="spPhone" placeholder="Phone" class="form-control">
 							</div>
 						</div>
 						<div class="col-sm-6">
 							<div class="form-group">
-								<input type="text" name="tdate" placeholder="Email Address" class="form-control">
+								<input type="email" name="spEmail" placeholder="Email Address" class="form-control">
 							</div>
 						</div>
 						<div class="col-sm-6">
 							<div class="form-group">
-							<input type="date" name="tdate" id="date-end" class="form-control" placeholder="Travel date">
+							<input type="date" name="trDate" class="form-control" placeholder="Travel date">
 							</div>
 						</div>
 						<div class="col-sm-6">
 							<div class="form-group">
-								<input type="text" name="tdate" placeholder="Number of adult" class="form-control">
+								<input type="number" name="adtNumber" placeholder="Number of adult" class="form-control">
 							</div>
 						</div>
 						<div class="col-sm-6">
 							<div class="form-group">
-								<input type="text" name="tdate" placeholder="Adult total price" class="form-control">
+								<input type="number" name="adtPrice" placeholder="Adult total price" class="form-control">
 							</div>
 						</div>
 						<div class="col-sm-6">
 							<div class="form-group">
-								<input type="text" name="tdate" placeholder="Number of child" class="form-control">
+								<input type="number" name="chdNumber" placeholder="Number of child" class="form-control">
 							</div>
 						</div>
 						<div class="col-sm-6">
 							<div class="form-group">
-								<input type="text" name="tdate" placeholder="Child total price" class="form-control">
+								<input type="number" name="chdTprice" placeholder="Child total price" class="form-control">
 							</div>
 						</div>
 						<div class="col-sm-6">
 							<div class="form-group">
-								<input type="text" name="tdate" placeholder="Number of rooms" class="form-control">
+								<input type="number" name="rooms" placeholder="Number of rooms" class="form-control">
 							</div>
 						</div>
 						<div class="col-sm-6">
