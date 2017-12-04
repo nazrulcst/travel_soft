@@ -243,20 +243,19 @@
 						<li id="click4" onclick="click4()">Click Four</li>
 					</ul>
 				</div>
-				<div id="in_box2">ওয়েব ডিজাইন কি
-
-ওয়েব ডিজাইন হচ্ছে একটা ওয়েবসাইটের জন্য বাহ্যিক অবয়ব তৈরী করা। ওয়েব ডিজাইনারের মুল কাজ একটা সাইটের জন্য টেমপ্লেট বানানো, এখানে কোন এপ্লিকেশন থাকবেনা।যেমন লগিন সিস্টেম, নিউজলেটার সাইনআপ, পেজিনেশন, ফাইল আপলোড করে ডেটাবেসে সেভ করা, ইমেজ ম্যানিপুলেশন, যদি সাইটে বিজ্ঞাপন থাকে তাহলে প্রতিবার পেজ লোড হওয়ার সময় বিজ্ঞাপনের পরিবর্তন এগুলি এপ্লিকেশন, ওয়েব এপ্লিকেশন।এসব তৈরী করতে হয় প্রোগ্রামিং ল্যাংগুয়েজ দিয়ে। কোন প্রকার এপ্লিকেশন ছাড়া একটা সাইট তৈরী করা এটাই ওয়েব ডিজাইন, এধরনের ডিজাইনকে বলতে পারেন স্টাটিক ডিজাইন।ওয়েব ডিজাইনের জন্য এই ধারনাটি সাধারনত ব্যবহৃত হচ্ছে।</div>
+				<div id="in_box2">
+					<h3>Hello Bangladesh</h3>
+				</div>
 				<div id="in_box3">ওয়েব ডিজাইন এবং ডেভেলপমেন্ট এর মাধ্যমে কিভাবে আউটসোর্সিং করে ইন্টারনেটে অর্থ আয় করা যায় এ বিষয়ে আলোচনা করেছেন অভিজ্ঞ একজন ফ্রিল্যান্সার যিনি প্রায় ৬/৭ বছর ধরে সফটওয়্যার ইন্ডাস্ট্রিতে সিনিয়র সফটওয়্যার ইন্জিনিয়ার হিসেবে কাজ করেছেন এবং কয়েক বছর থেকে ফ্রিল্যান্সিং করছেন</div>
 				<div id="in_box4"> Starting with PHP 5, the object model was rewritten to allow for better performance and more features. This was a major change from PHP 4. PHP 5 has a full object model.
 
 Among the features in PHP 5 are the inclusions of visibility, abstract and final classes and methods, additional magic methods, interfaces, cloning and typehinting.
 
 PHP treats objects in the same way as references or handles, meaning that each variable contains an object reference rather than a copy of the entire object. See Objects and References </div>
-				<div id="in_box5"> Starting with PHP 5, the object model was rewritten to allow for better performance and more features. This was a major change from PHP 4. PHP 5 has a full object model.
-
-Among the features in PHP 5 are the inclusions of visibility, abstract and final classes and methods, additional magic methods, interfaces, cloning and typehinting.
-
-PHP treats objects in the same way as references or handles, meaning that each variable contains an object reference rather than a copy of the entire object. See Objects and References </div>
+				<div id="in_box5">
+					<p>W3Schools is optimized for learning, testing, and training. Examples might be simplified to improve reading and basic understanding. Tutorials, references, and examples are constantly reviewed to avoid errors, but we cannot warrant full correctness of all content. While using this site, you agree to have read and accepted our terms of use, cookie and privacy policy. Copyright 1999-2017 by Refsnes Data. All Rights Reserved.
+Powered by W3.CSS.</p>
+				</div>
 			</div>
 		</div>
 <?php include('inc/footer.php');?>

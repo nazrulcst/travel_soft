@@ -34,7 +34,7 @@
 						</span>
 					</a>
 					<ul class="treeview-menu">
-						<li class="active"><a href="widgets.php"><i class="fa fa-circle-o"></i> Dashboard</a></li>
+						<li class="active"><a href="#"><i class="fa fa-circle-o"></i>Item One</a></li>
 					</ul>
 				</li>
 				<li>
@@ -58,18 +58,7 @@
 						<li><a href="pages/UI/modals.php"><i class="fa fa-circle-o"></i> Modals</a></li>
 					</ul>
 				</li>
-				<li class="treeview">
-					<a href="#">
-						<i class="fa fa-edit"></i> <span>Forms</span>
-						<span class="pull-right-container">
-						<i class="fa fa-angle-left pull-right"></i>
-						</span>
-					</a>
-					<ul class="treeview-menu">
-						<li><a href="pages/forms/advanced.php"><i class="fa fa-circle-o"></i> Advanced Elements</a></li>
-						<li><a href="pages/forms/editors.php"><i class="fa fa-circle-o"></i> Editors</a></li>
-					</ul>
-				</li>
+				
 				<li>
 					<a href="pages/mailbox/mailbox.php">
 						<i class="fa fa-envelope"></i> <span>Mailbox</span>
@@ -80,21 +69,7 @@
 						</span>
 					</a>
 				</li>
-				<li class="treeview">
-					<a href="#">
-						<i class="fa fa-folder"></i> <span>Examples</span>
-						<span class="pull-right-container">
-						<i class="fa fa-angle-left pull-right"></i>
-						</span>
-					</a>
-					<ul class="treeview-menu">
-						<li><a href="pages/examples/invoice.php"><i class="fa fa-circle-o"></i> Invoice</a></li>
-						<li><a href="pages/examples/login.php"><i class="fa fa-circle-o"></i> Login</a></li>
-						<li><a href="pages/examples/register.php"><i class="fa fa-circle-o"></i> Register</a></li>
-						<li><a href="pages/examples/lockscreen.php"><i class="fa fa-circle-o"></i> Lockscreen</a></li>
-						<li><a href="pages/examples/404.php"><i class="fa fa-circle-o"></i> 404 Error</a></li>
-					</ul>
-				</li>
+				
 				<li class="header">Special</li>
 				<li><a href="#"><i class="fa fa-circle-o text-red"></i> <span>Note</span></a></li>
 			</ul>

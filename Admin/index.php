@@ -1,3 +1,4 @@
+<?php include_once('loginVarify.php');?>
 <?php include('include/header.php');?>	
 <?php include('include/left_bar.php');?>
 
