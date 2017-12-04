@@ -34,7 +34,7 @@
 	<div class="wrapper">
 	<header class="main-header">
 		<!-- Logo -->
-		<a href="index.php" class="logo">
+		<a href="index.php" class="logo text-yellow">
 		  <!-- mini logo for sidebar mini 50x50 pixels -->
 		  <span class="logo-mini"><b>T</b>BZ</span>
 		  <!-- logo for regular state and mobile devices -->

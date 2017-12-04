@@ -4,20 +4,26 @@
 
 	<!-- Content Wrapper. Contains page content -->
 	<div class="content-wrapper">
-		<!-- Content Header (Page header) -->
-		<section class="content-header">
-			<h1>
-				Dashboard
-				<small>Control panel</small>
-			</h1>
-			<ol class="breadcrumb">
-				<li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-				<li class="active">Dashboard</li>
-			</ol>
-		</section>
-		<section class="body_main_content">
-			Hello World
-		</section>
+		 <section class="content"><!-- Main content -->
+		    	<?php
+		    		if(isset($_GET['page'])){
+		    			$page=$_GET['page'];
+		    			if(isset($_GET['folder'])){
+		    				$folder=$_GET['folder'];
+		    				include($folder.'/'.$page.'.php');
+		    			}else{
+		    				include($page.'.php');
+		    			}
+		    		}
+		    		if(!isset($_GET['page'])){//it's use for just only index.php
+		    	
+		    			$info="
+		    				<pre>Say something about you (-_-)</pre>
+		    			";
+		    			echo $info;	
+		    		}
+		    	?>
+		    </section><!-- /Main content -->
 	</div>
 	<!-- /content-wrapper -->
 <?php include('include/footer.php');?>
