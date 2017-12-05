@@ -40,18 +40,6 @@
 					</ul>
 				</li>
 				<!-- End Dashboard-->
-				<li class="<?php echo(isset($_GET['folder']) && $_GET['folder']=='package')?'active':null;?> treeview">
-					<a href="#">
-						<i class="fa fa-th-list text-green"></i> <span class="text-green">Packages</span>
-						<span class="pull-right-container">
-							<i class="fa fa-angle-left pull-right text-green"></i>
-						</span>
-					</a>
-					<ul class="treeview-menu">
-						<li class="<?php echo(isset($_GET['page']) && $_GET['page']=='addPackage')?'active':null;?>"><a href="index.php?page=addPackage&folder=package"><i class="fa fa-circle-o text-green"></i>Add Package</a></li>
-					</ul>
-				</li>
-				<!-- End Packages-->
 				<!-- Mail Box-->
 				<li class="<?php echo(isset($_GET['folder']) && $_GET['folder']=='mailbox')?'active':null;?> treeview">
 					<a href="#">
@@ -65,14 +53,31 @@
 					</ul>
 				</li>
 				<!-- End Mail Box-->
-				<li>
-					<a href="pages/widgets.php" class="text-yellow">
-						<i class="fa fa-th"></i> <span>Widgets</span>
+				<li class="<?php echo(isset($_GET['folder']) && $_GET['folder']=='package')?'active':null;?> treeview">
+					<a href="#">
+						<i class="fa fa-th-list text-green"></i> <span class="text-green">Packages</span>
+						<span class="pull-right-container">
+							<i class="fa fa-angle-left pull-right text-green"></i>
+						</span>
+					</a>
+					<ul class="treeview-menu">
+						<li class="<?php echo(isset($_GET['page']) && $_GET['page']=='addPackage')?'active':null;?>"><a href="index.php?page=addPackage&folder=package"><i class="fa fa-circle-o text-green"></i>Add Special Package</a></li>
+					</ul>
+				</li>
+				<!-- End Packages-->
+				<li class="<?php echo(isset($_GET['folder']) && $_GET['folder']=='offer')?'active':null;?> treeview">
+					<a href="#">
+						<i class="fa fa-gift text-yellow"></i> <span class="text-yellow">Offers</span>
 						<span class="pull-right-container">
 							<i class="fa fa-angle-left pull-right text-yellow"></i>
 						</span>
 					</a>
+					<ul class="treeview-menu">
+						<li class="<?php echo(isset($_GET['page']) && $_GET['page']=='offer')?'active':null;?>"><a href="index.php?page=offer&folder=offer"><i class="fa fa-circle-o text-yellow"></i>Add Exclusive offer</a></li>
+					</ul>
 				</li>
+				<!-- End Offers-->
+				
 				<li class="header">Special</li>
 				<li><a href="#"><i class="fa fa-circle-o text-red"></i> <span>Save note</span></a></li>
 				<li><a href="#"><i class="fa fa-circle-o text-red"></i> <span>Save note 2</span></a></li>
